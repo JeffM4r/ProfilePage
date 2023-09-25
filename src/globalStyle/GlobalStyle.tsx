@@ -33,6 +33,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size: 100px;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	background-color: #202020;
 }
 ol, ul {
 	list-style: none;
