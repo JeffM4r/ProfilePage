@@ -1,10 +1,13 @@
+import HomePage from "./pages/homePage/HomePage.tsx"
+import GlobalStyle from "./globalStyle/GlobalStyle.tsx"
+
+
 function App() {
 
   return (
     <>
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
+      <GlobalStyle />
+      <HomePage />
     </>
   )
 }
