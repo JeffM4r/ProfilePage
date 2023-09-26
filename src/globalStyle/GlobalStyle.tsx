@@ -2,6 +2,9 @@ import { createGlobalStyle } from "styled-components";
 import "./fonts/fontImport.css";
 
 const GlobalStyle = createGlobalStyle`
+/* Using css file to import fonts because there is a 
+reload issue if imported direct from styled-components*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
