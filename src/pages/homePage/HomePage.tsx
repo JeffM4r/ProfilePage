@@ -1,4 +1,4 @@
-import NavigationBar from "../../components/navigationBar/NavBar";
+import NavigationBar from "../../components/navigationBar/NavigationBar";
 
 function HomePage (){
   return (

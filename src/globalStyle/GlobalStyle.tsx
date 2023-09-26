@@ -37,7 +37,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: #202020;
+	background-color: #2b2b2b;
+	font-family: 'Roboto Slab';
+	margin-top: 60px;
 }
 ol, ul {
 	list-style: none;
