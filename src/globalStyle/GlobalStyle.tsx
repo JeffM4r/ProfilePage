@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "./fonts/fontImport.css";
 
 const GlobalStyle = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -33,9 +34,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-size: 100px;
-	font-family: 'Roboto Slab', serif;
-	color: white;
 	background-color: #202020;
 }
 ol, ul {

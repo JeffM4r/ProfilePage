@@ -1,6 +1,5 @@
-import HomePage from "./pages/homePage/HomePage.tsx"
-import GlobalStyle from "./globalStyle/GlobalStyle.tsx"
-
+import HomePage from "./pages/homePage/HomePage.tsx";
+import GlobalStyle from "./globalStyle/GlobalStyle.tsx";
 
 function App() {
 
