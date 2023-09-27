@@ -6,7 +6,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background-color: #202020;
-position: fixed;
+position: absolute;
 top: 0;
 left: 0;
 right: 0;
@@ -26,7 +26,7 @@ p{
 `
 
 export const Line = styled.div`
-position: fixed;
+position: absolute;
 top: 60px;
 left: 0;
 right: 0;
@@ -43,7 +43,8 @@ button{
   font-size: 20px;
   border: none;
   background-color: #202020;
-  margin-left: 44px;
+  margin-left: 40px;
+  font-family: 'Roboto Slab';
 }
 button:hover{
   cursor: pointer;

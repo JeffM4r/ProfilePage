@@ -1,10 +1,25 @@
 import NavigationBar from "../../components/navigationBar/NavigationBar";
+import linkedinIcon from "../../assets/icons8-linkedin.svg";
+import githubIcon from "../../assets/icons8-github.svg";
+import { Home, Title, Picture, TextRecolor, ContactButton, IconContainer } from "./HomePageStyledComponents";
 
-function HomePage (){
+function HomePage() {
   return (
     <>
-    <NavigationBar/>
-     <p>Hello World</p>
+      <NavigationBar />
+      <Home>
+        <Title>
+          <h1>Olá!</h1>
+          <h1>Meu nome é <TextRecolor>Jefferson</TextRecolor>,</h1>
+          <h1>Engenheiro de Software</h1>
+          <ContactButton>Contato</ContactButton>
+          <IconContainer>
+            <img src={linkedinIcon} alt="" />
+            <img src={githubIcon} alt="" />
+          </IconContainer>
+        </Title>
+        <Picture src="https://e7.pngegg.com/pngimages/906/448/png-clipart-silhouette-person-person-with-helmut-animals-logo-thumbnail.png" />
+      </Home>
     </>
   )
 }
