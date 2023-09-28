@@ -57,11 +57,17 @@ margin-top: 60px;
 
 export const Picture = styled.img`
 margin-left: 20px;
-height: 5000;
+width: 500px;
 
 @media (max-width: 1060px) {
   margin-left: 0px;
   margin-bottom: 20px;
-  height: 200px;
+  width: 400px;
+}
+
+@media (max-width: 400px) {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  width: 70vw;
 }
 `
