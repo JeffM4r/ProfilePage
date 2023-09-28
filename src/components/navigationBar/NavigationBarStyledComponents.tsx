@@ -23,6 +23,16 @@ p{
   font-size: 20px;
   color: white;
 }
+img{
+  display: none;
+}
+
+@media (max-width: 1060px) {
+  img{
+    display: initial;
+    height: 30px;
+  }
+}
 `
 
 export const Line = styled.div`
@@ -48,5 +58,11 @@ button{
 }
 button:hover{
   cursor: pointer;
+}
+
+@media (max-width: 1060px) {
+  button{
+    display: none;
+  }
 }
 `

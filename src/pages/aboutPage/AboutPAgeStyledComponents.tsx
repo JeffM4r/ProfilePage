@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Home = styled.div`
+export const About = styled.div`
 margin-top: 170px;
 display: flex;
 justify-content: space-evenly;
@@ -11,31 +11,23 @@ h1{
 
 @media (max-width: 1060px) {
   margin-top: 130px;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 `
-export const TextRecolor = styled.span`
-color: #6953e7;
-font-weight: 700;
-`
 
-export const Title = styled.div`
+export const PageContent = styled.div`
 display: flex;
 flex-direction: column;
-font-size: 40px;
+font-size: 25px;
 color: white;
+p{
+  max-width: 500px;
+}
 
 @media (max-width: 1060px) {
-  font-size: 25px;
-}
-`
-
-export const IconContainer = styled.div`
-margin-top: 100px;
-img{
-  filter: invert(100%) sepia(2%) saturate(7488%) hue-rotate(265deg) brightness(110%) contrast(101%);
-  height: 50px;
-  margin-right: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
 }
 `
 

@@ -1,3 +1,4 @@
+import mobileMenu from "../../assets/icons8-cardápio.svg";
 import { Top, Menu, MenuList, Line } from "./NavigationBarStyledComponents";
 
 function NavigationBar() {
@@ -13,6 +14,7 @@ function NavigationBar() {
             <button>Projetos</button>
             <button>Contato</button>
           </MenuList>
+          <img src={mobileMenu} alt="" />
         </Menu>
         <Line />
       </Top>

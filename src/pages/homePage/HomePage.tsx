@@ -14,8 +14,8 @@ function HomePage() {
           <h1>Engenheiro de Software</h1>
           <ContactButton>Contato</ContactButton>
           <IconContainer>
-            <img src={linkedinIcon} alt="" />
-            <img src={githubIcon} alt="" />
+            <img src={linkedinIcon} alt="Linkedin Icon" />
+            <img src={githubIcon} alt="Github Icon" />
           </IconContainer>
         </Title>
         <Picture src="https://e7.pngegg.com/pngimages/906/448/png-clipart-silhouette-person-person-with-helmut-animals-logo-thumbnail.png" />
