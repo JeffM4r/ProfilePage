@@ -58,16 +58,19 @@ margin-top: 60px;
 export const Picture = styled.img`
 margin-left: 20px;
 width: 500px;
+border-radius: 5px;
 
 @media (max-width: 1060px) {
   margin-left: 0px;
   margin-bottom: 20px;
+  margin-top: 20px;
   width: 400px;
 }
 
 @media (max-width: 400px) {
   margin-left: 0px;
   margin-bottom: 20px;
+  margin-top: 20px;
   width: 70vw;
 }
 `
