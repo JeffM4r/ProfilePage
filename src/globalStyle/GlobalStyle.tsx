@@ -39,7 +39,6 @@ body {
 	line-height: 1;
 	background-color: #2b2b2b;
 	font-family: 'Roboto Slab';
-	margin-bottom: 15px;
 }
 ol, ul {
 	list-style: none;

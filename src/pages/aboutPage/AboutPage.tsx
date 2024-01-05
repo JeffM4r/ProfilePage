@@ -2,10 +2,10 @@ import { Picture } from "../homePage/HomePageStyledComponents";
 import { About, PageContent } from "./AboutPAgeStyledComponents";
 import { Title } from "../../components/title/TitleStyledComponents";
 
-function AboutPage() {
+function AboutPage({ aboutRef }: { aboutRef: React.MutableRefObject<null | HTMLDivElement> }) {
   return (
     <>
-      <Title>
+      <Title ref={aboutRef}>
         Sobre
       </Title>
       <About>

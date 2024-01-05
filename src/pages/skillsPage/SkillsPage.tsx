@@ -2,10 +2,10 @@ import { Picture } from "../homePage/HomePageStyledComponents";
 import { About, PageContent } from "../aboutPage/AboutPAgeStyledComponents";
 import { Title } from "../../components/title/TitleStyledComponents";
 
-function SkillsPage() {
+function SkillsPage({skillRef}: {skillRef: React.MutableRefObject<null | HTMLDivElement>}) {
   return (
     <>
-      <Title>
+      <Title ref={skillRef}>
         Habilidades
       </Title>
       <About>

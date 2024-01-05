@@ -5,6 +5,7 @@ margin-top: 170px;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+scroll-margin-top: 180px;
 h1{
   margin-top: 30px;
 }

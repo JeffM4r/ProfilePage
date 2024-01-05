@@ -1,10 +1,10 @@
 import { ImagesContainer, Image, PageContainer } from "./ProjectsPageStyledComponents"
 import { Title } from "../../components/title/TitleStyledComponents"
 
-function ProjectsPage() {
+function ProjectsPage({projectRef}: {projectRef: React.MutableRefObject<null | HTMLDivElement>}) {
   return (
     <>
-      <Title>
+      <Title ref={projectRef}>
         Projetos
       </Title>
       <PageContainer>

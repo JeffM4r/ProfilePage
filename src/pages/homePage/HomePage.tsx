@@ -2,10 +2,10 @@ import linkedinIcon from "../../assets/icons8-linkedin.svg";
 import githubIcon from "../../assets/icons8-github.svg";
 import { Home, TextContainer, Picture, TextRecolor, ContactButton, IconContainer } from "./HomePageStyledComponents";
 
-function HomePage() {
+function HomePage({homeRef}: {homeRef: React.MutableRefObject<null | HTMLDivElement>}) {
   return (
     <>
-      <Home>
+      <Home ref={homeRef}>
         <TextContainer>
           <h1>Olá!</h1>
           <h1>Meu nome é <TextRecolor>Jefferson</TextRecolor>,</h1>

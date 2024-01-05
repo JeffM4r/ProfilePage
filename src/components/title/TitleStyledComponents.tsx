@@ -11,6 +11,7 @@ font-size: 30px;
 color: #6953e7;
 font-weight: 700;
 text-decoration: underline;
+scroll-margin-top: 120px;
 
 @media (max-width: 1060px) {
   margin-top: 60px;
