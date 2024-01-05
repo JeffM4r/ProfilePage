@@ -1,9 +1,13 @@
 import { Picture } from "../homePage/HomePageStyledComponents";
 import { About, PageContent } from "../aboutPage/AboutPAgeStyledComponents";
+import { Title } from "../../components/title/TitleStyledComponents";
 
 function SkillsPage() {
   return (
     <>
+      <Title>
+        Habilidades
+      </Title>
       <About>
         <PageContent>
           <p>

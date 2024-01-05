@@ -1,9 +1,13 @@
 import { Picture } from "../homePage/HomePageStyledComponents";
 import { About, PageContent } from "./AboutPAgeStyledComponents";
+import { Title } from "../../components/title/TitleStyledComponents";
 
 function AboutPage() {
   return (
     <>
+      <Title>
+        Sobre
+      </Title>
       <About>
         <Picture src="https://e7.pngegg.com/pngimages/906/448/png-clipart-silhouette-person-person-with-helmut-animals-logo-thumbnail.png" />
         <PageContent>

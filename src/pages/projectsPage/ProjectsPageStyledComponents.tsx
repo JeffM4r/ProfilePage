@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ImagesContainer = styled.div`
-margin-top: 90px;
 max-width: 1300px;
 display: flex;
 flex-wrap: wrap;
@@ -10,7 +9,6 @@ justify-content: space-around;
 `
 
 export const PageContainer = styled.div`
-margin-top: 60px;
 display: flex;
 align-items: center;
 justify-content: center;

@@ -1,13 +1,11 @@
 import styled from "styled-components";
 
 export const About = styled.div`
-margin-top: 170px;
 display: flex;
 justify-content: center;
 align-items: center;
 
 @media (max-width: 1060px) {
-  margin-top: 130px;
   flex-direction: column;
 }
 `

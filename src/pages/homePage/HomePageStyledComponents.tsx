@@ -19,7 +19,7 @@ color: #6953e7;
 font-weight: 700;
 `
 
-export const Title = styled.div`
+export const TextContainer = styled.div`
 display: flex;
 flex-direction: column;
 font-size: 40px;

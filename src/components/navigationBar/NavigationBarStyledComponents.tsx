@@ -6,7 +6,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background-color: #202020;
-position: absolute;
+position: fixed;
 top: 0;
 left: 0;
 right: 0;
