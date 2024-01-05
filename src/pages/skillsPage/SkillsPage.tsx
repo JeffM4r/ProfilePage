@@ -1,11 +1,9 @@
-import NavigationBar from "../../components/navigationBar/NavigationBar";
 import { Picture } from "../homePage/HomePageStyledComponents";
 import { About, PageContent } from "../aboutPage/AboutPAgeStyledComponents";
 
 function SkillsPage() {
   return (
     <>
-      <NavigationBar />
       <About>
         <PageContent>
           <p>

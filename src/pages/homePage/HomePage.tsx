@@ -1,4 +1,3 @@
-import NavigationBar from "../../components/navigationBar/NavigationBar";
 import linkedinIcon from "../../assets/icons8-linkedin.svg";
 import githubIcon from "../../assets/icons8-github.svg";
 import { Home, Title, Picture, TextRecolor, ContactButton, IconContainer } from "./HomePageStyledComponents";
@@ -6,7 +5,6 @@ import { Home, Title, Picture, TextRecolor, ContactButton, IconContainer } from 
 function HomePage() {
   return (
     <>
-      <NavigationBar />
       <Home>
         <Title>
           <h1>Olá!</h1>

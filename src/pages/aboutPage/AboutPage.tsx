@@ -1,11 +1,9 @@
-import NavigationBar from "../../components/navigationBar/NavigationBar";
 import { Picture } from "../homePage/HomePageStyledComponents";
 import { About, PageContent } from "./AboutPAgeStyledComponents";
 
 function AboutPage() {
   return (
     <>
-      <NavigationBar />
       <About>
         <Picture src="https://e7.pngegg.com/pngimages/906/448/png-clipart-silhouette-person-person-with-helmut-animals-logo-thumbnail.png" />
         <PageContent>

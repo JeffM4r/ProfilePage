@@ -24,4 +24,9 @@ margin-bottom: 30px;
 &:hover{
   cursor: pointer;
 }
+
+@media (max-width: 400px) {
+width: 100vw;
+height: auto;
+}
 `

@@ -12,7 +12,6 @@ function NavigationBar() {
             <button>Sobre</button>
             <button>Habilidades</button>
             <button>Projetos</button>
-            <button>Contato</button>
           </MenuList>
           <img src={mobileMenu} alt="" />
         </Menu>
