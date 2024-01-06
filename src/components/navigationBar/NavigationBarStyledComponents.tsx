@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { mobileMenuListProps } from "../../vite-env";
 
-export const Top = styled.div`
+export const Top = styled.header`
+z-index: 1;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -31,6 +33,9 @@ img{
   img{
     display: initial;
     height: 30px;
+  }
+  img:hover{
+    cursor: pointer;
   }
 }
 `
@@ -63,6 +68,48 @@ button:hover{
 @media (max-width: 1060px) {
   button{
     display: none;
+  }
+}
+`
+
+export const MobileMenuList = styled.div<mobileMenuListProps>`
+position: absolute;
+margin-top: 61px;
+visibility: hidden;
+top: 0;
+z-index: -1;
+height: 100vh;
+background-color: #202020;
+width: 400px;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+
+button{
+  margin-top: 20px;
+  color: white;
+  font-size: 25px;
+  border: none;
+  background-color: #202020;
+  font-family: 'Roboto Slab';
+  margin-right: 100px;
+}
+button:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 1060px) {
+  transition: all .3s ease-in-out;
+  right:${(props) => (props.menuIsHidden ? "-400px" : "0")};
+  visibility: ${(props) => (props.menuIsHidden ? "hidden" : "visible")};
+}
+
+@media (max-width: 440px) {
+  width: 150px;
+  right:${(props) => (props.menuIsHidden ? "-150px" : "0")};
+  button{
+    font-size: 20px;
+    margin-right: 20px;
   }
 }
 `

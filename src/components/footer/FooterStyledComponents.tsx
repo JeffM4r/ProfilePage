@@ -17,4 +17,14 @@ h3{
   font-size: 20px;
   color: white;
 }
+
+@media (max-width: 1060px) {
+  h2{
+  font-size: 20px;
+  }
+  h3{
+    font-size: 10px;
+    color: white;
+  }  
+}
 `
