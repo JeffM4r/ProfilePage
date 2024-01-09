@@ -7,3 +7,7 @@ export interface referencesType {
   skillRef: React.MutableRefObject<null | HTMLDivElement>,
   projectRef: React.MutableRefObject<null | HTMLDivElement>
 }
+
+export interface mobileMenuListProps {
+  menuIsHidden: boolean;
+}
